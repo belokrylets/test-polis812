@@ -1,0 +1,26 @@
+@import "./nullStyles.scss";
+@import "./header.scss";
+@import "./usersListPage.scss";
+@import "./albumsPage.scss";
+@import "./postsPage.scss";
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.container {
+  max-width: 1106px;
+  padding: 0 15px;
+  margin: 0px auto;
+  box-sizing: border-box;
+}

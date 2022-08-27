@@ -1,0 +1,16 @@
+.users_list_page {
+  margin: 100px 0 20px 0;
+}
+.users_list_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.user {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid black;
+  padding: 20px;
+}
